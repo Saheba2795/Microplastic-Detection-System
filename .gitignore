@@ -1,0 +1,22 @@
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# Ignore large model/data folders
+runs/
+*.pt
+*.pkl
+*.h5
+*.onnx
+
+# Ignore cache and system files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore VS Code and notebook checkpoints
+.vscode/
+.ipynb_checkpoints/
